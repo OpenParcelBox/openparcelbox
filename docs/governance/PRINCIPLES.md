@@ -10,9 +10,11 @@ OpenParcelBox should work locally wherever possible.
 
 Users should be able to run their own OpenParcelBox backend through the OpenParcelBox Cloud Community Edition.
 
-### Open core
+### Open ecosystem
 
 The core bridge, local protocol, access model, firmware foundation, API specifications and reference implementations should remain open and auditable.
+
+Official project work, including commissioned development, should be published as open source or open hardware wherever legally and contractually possible.
 
 ### No artificial lock-in
 
@@ -42,6 +44,14 @@ Plugins may request security-sensitive actions. The Core decides whether they ar
 
 Commercial services may cover operation, support, integration, certification, liability, security, hosting, updates and convenience.
 
+### Finished products without closing the project
+
+OpenParcelBox may later offer finished devices, retrofit kits and professional services. The community should still be able to study, repair, fork and rebuild open designs under their licenses.
+
+### Fair participation
+
+Substantial work may be supported through sponsorships, grants, contracts, bounties or revenue sharing where resources allow. Payment should not override the project principles, security model or maintainership.
+
 ### Brand protected, code open
 
 OpenParcelBox code, documentation and hardware designs may be open under their respective licenses. The OpenParcelBox name, logo, certification marks and domain identity remain protected project identifiers.
@@ -56,9 +66,11 @@ OpenParcelBox soll nach Möglichkeit lokal funktionieren.
 
 Nutzer sollen ihre eigene OpenParcelBox-Backend-Instanz mit der OpenParcelBox Cloud Community Edition betreiben können.
 
-### Offener Core
+### Offenes Ökosystem
 
 Bridge-Core, lokales Protokoll, Zugriffsmodell, Firmware-Grundlage, API-Spezifikationen und Referenzimplementierungen sollen offen und überprüfbar bleiben.
+
+Offizielle Projektarbeit, auch beauftragte Entwicklung, soll nach Möglichkeit als Open Source oder Open Hardware veröffentlicht werden, soweit das rechtlich und vertraglich möglich ist.
 
 ### Kein künstlicher Lock-in
 
@@ -87,6 +99,14 @@ Plugins dürfen sicherheitskritische Aktionen anfragen. Der Core entscheidet, ob
 ### Kommerzielle Dienste für echten Wert
 
 Kommerzielle Dienste können Betrieb, Support, Integration, Zertifizierung, Haftung, Sicherheit, Hosting, Updates und Komfort abdecken.
+
+### Fertige Produkte ohne geschlossenes Projekt
+
+OpenParcelBox kann später fertige Geräte, Umrüstkits und professionelle Dienstleistungen anbieten. Die Community soll offene Designs trotzdem nach ihren Lizenzen prüfen, reparieren, forken und nachbauen können.
+
+### Faire Beteiligung
+
+Größere Arbeiten können über Sponsoring, Förderungen, Aufträge, Bounties oder Beteiligungsmodelle unterstützt werden, wenn Mittel verfügbar sind. Bezahlung soll die Projektprinzipien, das Sicherheitsmodell und die Maintainer-Verantwortung nicht aushebeln.
 
 ### Marke geschützt, Code offen
 

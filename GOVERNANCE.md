@@ -55,6 +55,10 @@ Commercial partners, customers or sponsors do not automatically receive control 
 
 Commercial cooperation may influence priorities, but project maintainers retain final authority over community project decisions.
 
+Commissioned or sponsored project work should normally be developed in the open and contributed back to the public project where legally and contractually possible.
+
+OpenParcelBox may later sell finished devices, retrofit kits, cloud services, consulting, integration work, support or certification. Commercial activity should remain compatible with the project goal that the community can inspect, rebuild and improve the open designs under their licenses.
+
 ## Priority principles
 
 The following principles have priority in project decisions:
@@ -79,5 +83,8 @@ The project may later introduce additional governance roles, such as:
 - hardware reviewers
 - advisory board
 - certification reviewers
+- foundation, cooperative, association, company or similar operating structure
 
 Any future governance structure should preserve the project’s local-first, self-hostable and community-benefit principles.
+
+The OpenParcelBox name, logo, domain identity and related marks remain protected project identifiers controlled by the project founder/maintainer unless a future written agreement explicitly changes that.

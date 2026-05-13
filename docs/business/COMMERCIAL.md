@@ -4,6 +4,10 @@ OpenParcelBox is open at its core and designed for professional collaboration.
 
 The project may offer commercial hardware, cloud services, consulting, custom integrations, support, certification and enterprise features without giving up the open community foundation.
 
+Commercial activity should strengthen the open ecosystem instead of turning it into a closed product line.
+
+Official OpenParcelBox hardware, firmware, software, documentation and commissioned development should be published as open source or open hardware wherever legally and contractually possible. Finished devices and retrofit kits may be sold, but the community should remain able to study, repair, fork and rebuild the open designs according to their licenses.
+
 ## Commercial principles
 
 Paid services should cover real value such as:
@@ -20,6 +24,8 @@ Paid services should cover real value such as:
 - professional deployment
 
 Paid services should not be based on artificial lock-in or deliberately broken community features.
+
+Paid work may be used to accelerate open development. Programming tasks, hardware work, documentation, testing or integrations may be commissioned, sponsored, contracted or funded through community bounties, as long as the expected publication model is clear before the work starts.
 
 ## Possible commercial offerings
 
@@ -45,6 +51,14 @@ OpenParcelBox may offer:
 - security reviews
 - deployment support
 
+## Finished products and DIY rebuilds
+
+OpenParcelBox may later provide finished devices, retrofit kits or partner products for users who do not want to build everything themselves.
+
+These products should be based on open specifications and, where possible, open hardware and open source software. The goal is not to prevent DIY builds, but to make reliable ready-to-use options available for people who prefer support, warranty, assembly, supply chain handling or professional installation.
+
+The community should be able to rebuild compatible implementations from the published designs, subject to the applicable open licenses and the trademark policy.
+
 ## Consulting and custom integrations
 
 Companies may hire OpenParcelBox to design or implement:
@@ -62,6 +76,10 @@ Companies may hire OpenParcelBox to design or implement:
 - public locker workflows
 - security concepts
 - prototype hardware
+
+Commissioned work should normally produce reusable open project output, such as specifications, firmware modules, bridge features, documentation, test fixtures, reference designs or compatibility profiles.
+
+Exceptions may be needed where third-party API contracts, customer secrets, personal data, security credentials or legal obligations prevent full publication. In those cases, the reusable generic parts should still be contributed back where possible.
 
 ## Open source and commercial use
 
@@ -115,6 +133,22 @@ Every major commercial direction should preserve or create meaningful community 
 - reusable SDKs
 - improved documentation
 - security hardening
+
+## Fair participation
+
+OpenParcelBox should allow both volunteer and paid contribution paths.
+
+The project may use sponsorships, grants, bounties, paid contracts, revenue sharing or other fair models to compensate substantial work when resources are available.
+
+Payment does not automatically grant control over the roadmap, brand, security model or maintainership. Community trust and technical quality remain more important than short-term commercial pressure.
+
+## Future legal structure
+
+The project may later use a foundation, cooperative, association, company or similar legal structure for operations, funding, contracting, liability, payroll, certification, support or product distribution.
+
+Any such structure should preserve the open-source, local-first and self-hostable project principles.
+
+The OpenParcelBox name, logo, domain identity and related marks remain protected project identifiers controlled by the project founder/maintainer unless a future written agreement explicitly changes that.
 
 ## No automatic partnership
 
