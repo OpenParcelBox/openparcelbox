@@ -73,13 +73,28 @@ See:
 
 Early project work focuses on:
 
-- project vision and terminology
-- repository and GitHub Project structure
+The first concrete roadmap target is a **standalone ESP-based retrofit kit for existing DHL parcel boxes**.
+
+V1 should prove the local-first retrofit idea on real hardware:
+
+- keep the existing parcel box useful
+- replace or adapt the closed lock/control layer
+- support a keypad/RFID/fingerprint access module where feasible
+- run locally without cloud, bridge, Home Assistant or internet
+- explore solar-supported low-voltage operation
+- support up to 10 users, multiple local codes and separate carrier/service-provider codes
+- keep household/group capability in the data model from the beginning
+
+See:
+
+- [DHL Paketkasten Retrofit V1 Roadmap](docs/roadmap/dhl-paketkasten-retrofit-v1.md)
+
+Supporting project work continues around:
+
 - CEN/TS 17457:2020 research
 - access-control model and opening rights
-- local-first architecture
 - OpenParcelLock concept
-- retrofit scenarios for existing parcel boxes
+- Wiegand and access-module profiles
 - security and privacy requirements
 - carrier access and dynamic code concepts
 

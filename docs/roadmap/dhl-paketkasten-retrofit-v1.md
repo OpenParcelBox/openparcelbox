@@ -1,0 +1,203 @@
+# DHL Paketkasten Retrofit V1 Roadmap
+
+Status: early target definition.
+
+This document defines the first concrete OpenParcelBox prototype direction: a retrofit kit for existing DHL parcel boxes.
+
+The goal is not yet a universal OpenParcelBox platform. The goal is a realistic first standalone retrofit that proves the core ideas on real hardware.
+
+## Why this is V1
+
+The discontinued electronic DHL parcel box is the strongest first use case because:
+
+- many boxes still physically exist
+- the original closed electronic access path has reached end of life
+- owners need a practical way to keep using the box
+- the retrofit problem is concrete, testable and useful
+- it demonstrates the OpenParcelBox principle: keep the box, replace the closed control layer
+
+## V1 Goal
+
+Build a standalone ESP-based retrofit controller for an existing DHL parcel box.
+
+The first prototype should:
+
+- work locally without cloud, bridge, Home Assistant or internet
+- control a practical lock mechanism inside the parcel box
+- support a keypad/RFID/fingerprint access module where feasible
+- run from a solar-supported low-voltage power system if practical
+- manage a small household-style user model
+- support package-carrier deposit codes separately from owner pickup/admin access
+- keep the design open enough that other users can reproduce, modify and improve it
+
+## Target User Model
+
+V1 should support a deliberately limited but useful standalone model:
+
+- up to 10 users
+- each user can have up to 5 personal/access codes
+- 1 master/admin code
+- up to 5 carrier/service-provider codes
+- household/group capability should be included in the data model from the beginning
+
+The first firmware does not need full cloud account management, but it should avoid painting itself into a corner.
+
+Example future groups:
+
+- household
+- owner/admin
+- family member
+- neighbor
+- carrier
+- service/maintenance
+
+## Access Semantics
+
+V1 must separate the meaning of access codes.
+
+At minimum:
+
+- owner/admin access: may open for pickup, setup or maintenance
+- user access: may open according to local permissions
+- carrier access: should be deposit-oriented and should not automatically imply pickup rights
+- master code: local emergency/admin path
+
+This should align with the existing OpenParcelBox opening-right model, even if the first firmware stores everything locally.
+
+## Hardware Direction
+
+The first prototype will be based on components available during the initial hardware exploration.
+
+The next practical work starts when the available parts are documented:
+
+- existing DHL parcel box and lock unit
+- old lock mechanism and whether it is removed, reused or gutted
+- keypad/RFID module
+- possible fingerprint module
+- ESP target board
+- relay/MOSFET/driver options
+- battery and solar parts
+- door state sensors
+- cable glands, wiring paths and mounting options
+
+## Lock Mechanism Exploration
+
+The lock is the most important mechanical unknown.
+
+Open design questions:
+
+- remove the original DHL lock unit completely?
+- gut the old lock housing and reuse its mechanical position?
+- keep part of the original latch/bolt mechanism?
+- use a solenoid lock, motor lock, cabinet lock or custom OpenParcelLock module?
+- define a fail-safe or fail-secure behavior?
+- provide a local mechanical emergency opening path?
+- protect wiring and lock actuation from outside manipulation?
+
+V1 should prefer a simple, inspectable and serviceable lock mechanism over a clever but fragile design.
+
+## Access Module Placement
+
+The external access module needs its own small design study.
+
+Questions:
+
+- where can a keypad/RFID reader be mounted without weakening the door?
+- can the existing lock opening or front cut-out be reused?
+- does the old lock area need a cover plate or adapter plate?
+- how is the cable routed through the moving door without fatigue?
+- can a fingerprint module be used outdoors reliably?
+- is Wiegand the preferred first interface for keypad/RFID/fingerprint readers?
+- should the access module be replaceable without redesigning the whole door?
+
+## Wiring and Protected Areas
+
+V1 should assume that security-critical components live inside the parcel box or another protected area.
+
+Preferred boundary:
+
+- outside: keypad/RFID/fingerprint reader and possibly status LED/buzzer
+- inside: ESP controller, lock driver, battery, charging, sensor wiring and code store
+- protected connection: reader cable, door cable routing and tamper-aware wiring where practical
+
+The reader should present credentials. The internal controller decides whether to open.
+
+## Power Direction
+
+V1 should explore solar-supported standalone operation.
+
+Planning assumptions:
+
+- low-voltage only
+- no mains voltage on prototype boards
+- certified external power supplies only if mains is used during tests
+- battery-backed operation
+- power budget for ESP sleep/wake behavior
+- lock actuation peak current must be measured
+- reader/keypad idle current must be measured
+- solar sizing depends on standby current and opening frequency
+
+Open questions:
+
+- ESP deep sleep or always-on controller?
+- keypad wake input or always-powered reader?
+- battery chemistry and protection board?
+- charge controller module?
+- winter reserve target?
+
+## Connectivity Direction
+
+V1 is standalone first.
+
+Matter, Zigbee, WLAN, MQTT, Home Assistant or bridge integration may be explored later, but they are not required for V1 to work.
+
+The firmware architecture should still avoid blocking these future paths.
+
+Possible staged approach:
+
+1. Standalone local keypad/RFID operation.
+2. Local configuration interface.
+3. Optional WLAN status/config.
+4. Optional MQTT/Home Assistant bridge.
+5. Optional Matter/Zigbee capable device or bridge path.
+
+## V1 Non-Goals
+
+V1 does not need:
+
+- hosted cloud
+- carrier API integration
+- package tracking
+- dynamic carrier-issued codes
+- multi-building management
+- official compliance claims
+- final certified hardware
+- universal support for all parcel boxes
+
+These remain platform goals, not first-retrofit requirements.
+
+## Acceptance Criteria for V1 Concept
+
+The V1 concept is ready for prototype implementation when:
+
+- component inventory is documented with photos, names, voltages and interfaces
+- lock strategy is selected: reuse, gut, replace or redesign
+- access module mounting concept is sketched
+- cable routing concept is sketched
+- power budget is estimated
+- local user/code model is written down
+- firmware state model is sketched
+- safety and emergency opening assumptions are documented
+- first bill of materials is drafted
+- obvious weather and tamper risks are listed
+
+## Immediate Next Steps
+
+1. Document the available components as they arrive.
+2. Photograph the DHL parcel box, door, lock area, inside space and cable paths.
+3. Open or inspect the old lock unit and decide whether it is reusable.
+4. Identify keypad/RFID/fingerprint module interfaces, especially Wiegand, relay, UART or standalone behavior.
+5. Sketch two or three lock mechanism options before selecting one.
+6. Estimate power consumption for controller, reader, lock actuation and sensors.
+7. Convert the chosen direction into firmware and hardware issues.
+
