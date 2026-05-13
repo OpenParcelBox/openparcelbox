@@ -103,20 +103,39 @@ Use of these names or marks requires written permission and may require testing,
 
 Manufacturers, box vendors and integration partners are welcome in the OpenParcelBox ecosystem.
 
-They may build and sell finished products, retrofit kits, replacement electronics, locks, controllers, housings, installation services and support offerings.
+Open source and commercial products are not opposites.
+
+OpenParcelBox is not intended to remain only a hobby project. Commercial providers are explicitly welcome.
+
+Carriers, mailbox manufacturers, lock manufacturers, smart-home vendors, retrofit providers and service companies may build on OpenParcelBox, extend it and create their own products.
+
+They may build and sell finished products, retrofit kits, replacement electronics, locks, controllers, housings, installation services, support offerings, cloud convenience services and integrations into existing systems.
 
 However, official OpenParcelBox compatibility, certification or brand use should require a repairable, documented and interoperable implementation.
 
 Expected vendor behavior for official compatibility:
 
+- make official variants available in Git or another reviewable project repository
+- provide relevant documents for project review
+- document schematics where applicable
 - document relevant interfaces, pinouts, connector profiles and API behavior
+- document housing, mounting and mechanical integration data where applicable
+- publish firmware changes or clearly document firmware deltas
+- document relevant protocols
 - publish or document critical spare parts, mechanical dimensions and replacement paths
+- document security-relevant deviations from the reference design
 - keep local basic operation possible without mandatory cloud services
 - provide enough repair and installation information for owners and maintainers
 - avoid private protocols that make users dependent on one vendor for basic parcel access
 - separate paid service value from artificial lock-in
 
 If a vendor wants to sell an OpenParcelBox-compatible solution, that is welcome. If a vendor wants official OpenParcelBox marks, users should not be trapped by unavailable spare parts, undocumented access systems or a cloud dependency that can make otherwise useful hardware obsolete.
+
+The intent is not to block commercial providers. The intent is to prevent OpenParcelBox from becoming the next closed dead end.
+
+Spare parts should be available, rebuildable or self-manufacturable where practical, for example through standard components, published specifications or 3D-printable parts.
+
+OpenParcelBox takes sustainability seriously. A parcel box should not become unusable again because a vendor disappears, a cloud service is shut down or a spare part is no longer available.
 
 ## Cloud and enterprise services
 

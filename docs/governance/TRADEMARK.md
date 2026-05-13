@@ -68,6 +68,8 @@ OpenParcelBox Certified, OpenParcelBox Compatible and similar certification or c
 
 Official compatibility may require more than "it works once". The project may require documentation of relevant interfaces, replacement parts, repair paths, local operation, security behavior and interoperability before allowing certification or official brand use.
 
+Official OpenParcelBox variants should be documented in Git or another reviewable project repository so that schematics, interfaces, firmware changes, protocols, mounting data, spare-part information and security-relevant deviations can be reviewed by maintainers and the community.
+
 Commercial vendors may sell products and services around OpenParcelBox. They may not use official marks to promote hardware that depends on unavailable spare parts, undocumented private protocols or mandatory cloud services for basic local operation.
 
 ## No trademark license in open source licenses
