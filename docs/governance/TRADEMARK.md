@@ -66,6 +66,10 @@ You may not use “OpenParcelBox Certified”, “Official OpenParcelBox”, “
 
 OpenParcelBox Certified, OpenParcelBox Compatible and similar certification or compatibility marks may be subject to additional requirements, testing, approval and written permission.
 
+Official compatibility may require more than "it works once". The project may require documentation of relevant interfaces, replacement parts, repair paths, local operation, security behavior and interoperability before allowing certification or official brand use.
+
+Commercial vendors may sell products and services around OpenParcelBox. They may not use official marks to promote hardware that depends on unavailable spare parts, undocumented private protocols or mandatory cloud services for basic local operation.
+
 ## No trademark license in open source licenses
 
 Open source licenses for code, documentation or hardware designs do not grant permission to use OpenParcelBox names, logos, certification marks or domain identity.

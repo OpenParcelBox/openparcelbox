@@ -99,6 +99,25 @@ OpenParcelBox may offer certification or compatibility programs such as:
 
 Use of these names or marks requires written permission and may require testing, review, certification or commercial agreement.
 
+## Vendor compatibility pact
+
+Manufacturers, box vendors and integration partners are welcome in the OpenParcelBox ecosystem.
+
+They may build and sell finished products, retrofit kits, replacement electronics, locks, controllers, housings, installation services and support offerings.
+
+However, official OpenParcelBox compatibility, certification or brand use should require a repairable, documented and interoperable implementation.
+
+Expected vendor behavior for official compatibility:
+
+- document relevant interfaces, pinouts, connector profiles and API behavior
+- publish or document critical spare parts, mechanical dimensions and replacement paths
+- keep local basic operation possible without mandatory cloud services
+- provide enough repair and installation information for owners and maintainers
+- avoid private protocols that make users dependent on one vendor for basic parcel access
+- separate paid service value from artificial lock-in
+
+If a vendor wants to sell an OpenParcelBox-compatible solution, that is welcome. If a vendor wants official OpenParcelBox marks, users should not be trapped by unavailable spare parts, undocumented access systems or a cloud dependency that can make otherwise useful hardware obsolete.
+
 ## Cloud and enterprise services
 
 Official hosted cloud, managed cloud and enterprise offerings may be provided under separate commercial terms.
