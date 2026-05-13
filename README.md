@@ -92,6 +92,7 @@ V1 should prove the local-first retrofit idea on real hardware:
 See:
 
 - [DHL Paketkasten Retrofit V1 Roadmap](docs/roadmap/dhl-paketkasten-retrofit-v1.md)
+- [Milestone 1: DHL Parcel Box Retrofit Beta](docs/roadmap/m1-dhl-retrofit-beta.md)
 
 Supporting project work continues around:
 

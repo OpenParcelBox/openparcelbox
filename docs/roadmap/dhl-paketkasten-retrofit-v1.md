@@ -6,6 +6,10 @@ This document defines the first concrete OpenParcelBox prototype direction: a re
 
 The goal is not yet a universal OpenParcelBox platform. The goal is a realistic first standalone retrofit that proves the core ideas on real hardware.
 
+Concrete beta acceptance target:
+
+- [Milestone 1: DHL Parcel Box Retrofit Beta](m1-dhl-retrofit-beta.md)
+
 ## Why this is V1
 
 The discontinued electronic DHL parcel box is the strongest first use case because:
