@@ -1,8 +1,8 @@
 # Standards Baseline
 
-OpenParcelBox should be standards-oriented without copying protected standards text.
+OpenParcelBox should be aligned with the relevant European standards baseline without copying protected standards text or claiming compliance before the project has completed a proper review.
 
-This document captures the public standards baseline used for early project planning. It is not a compliance claim.
+This document captures the public European standards baseline used for early project planning. It is not a compliance claim.
 
 ## Standards Tracks
 
@@ -13,7 +13,7 @@ OpenParcelBox separates two concerns:
 
 ## CEN/TS 17457:2020
 
-CEN/TS 17457:2020 is the key public reference for digital, optionally online-connected opening and closing systems for home-use parcel receptacles.
+CEN/TS 17457:2020 is the key European reference for digital, optionally online-connected opening and closing systems for home-use parcel receptacles.
 
 OpenParcelBox uses it as a requirements compass for:
 
