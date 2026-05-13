@@ -52,6 +52,22 @@ See:
 - [Standards baseline](docs/standards/baseline.md)
 - [Opening rights](docs/access-control/opening-rights.md)
 - [Carrier adapter interface](docs/integrations/carrier-adapter.md)
+- [Wiegand ACCESS-Port profile](docs/hardware/wiegand-access-port.md)
+
+## Governance and Contribution
+
+OpenParcelBox welcomes community input while keeping clear responsibility for security, official releases, project identity and local-first principles.
+
+See:
+
+- [Contributing](CONTRIBUTING.md)
+- [Developer Certificate of Origin](DCO.md)
+- [Governance](GOVERNANCE.md)
+- [Security policy](SECURITY.md)
+- [Project principles](docs/governance/PRINCIPLES.md)
+- [License overview](docs/governance/LICENSES.md)
+- [Trademark policy](docs/governance/TRADEMARK.md)
+- [Brand usage](docs/governance/BRAND_USAGE.md)
 
 ## Current Focus
 
