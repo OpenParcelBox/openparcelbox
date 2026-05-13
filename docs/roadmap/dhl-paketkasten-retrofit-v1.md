@@ -12,9 +12,14 @@ The discontinued electronic DHL parcel box is the strongest first use case becau
 
 - many boxes still physically exist
 - the original closed electronic access path has reached end of life
+- the original carrier-specific access model was one of the key limitations
 - owners need a practical way to keep using the box
 - the retrofit problem is concrete, testable and useful
 - it demonstrates the OpenParcelBox principle: keep the box, replace the closed control layer
+
+The useful lesson is not that a permanent shared combination code is a good platform. It is not.
+
+The useful lesson is that a carrier does not need ownership of the whole parcel box. A carrier needs a limited right to open a receptacle for a specific delivery. OpenParcelBox should turn that workaround insight into local, auditable and carrier-neutral access control.
 
 ## Official DHL Retrofit Reference
 
@@ -42,6 +47,7 @@ OpenParcelBox should treat this as a useful baseline and contrast point:
 - DHL's approach is intentionally simple and manual.
 - It keeps the physical box in use.
 - It makes access understandable for delivery staff.
+- It accidentally removes the original DHL-only access barrier.
 - It does not solve dynamic codes, auditability, multi-user rights, local event logging, tamper handling or open electronic interoperability.
 
 V1 should build on the same physical insight while adding a local, open and auditable access-control layer.
