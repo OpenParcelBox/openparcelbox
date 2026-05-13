@@ -24,6 +24,12 @@ Paid services should not be based on deliberately broken community features.
 
 Every major commercial direction should preserve or create meaningful community benefit, such as open specifications, documented APIs, self-hosting support, local operation, reference implementations or compatibility tools.
 
+### Open infrastructure for underserved places
+
+OpenParcelBox should do more than retrofit private parcel boxes. The project may become a foundation for community parcel boxes, apartment buildings, neighborhoods, villages, housing projects, associations, small commercial areas and municipalities where parcel stations are too rare or the available infrastructure does not fit.
+
+Commercial activity may support planning, manufacturing, installation, maintenance, hosting and operation of such systems, as long as the foundation remains open, locally usable, repairable, rebuildable and free from new closed dependencies.
+
 ### Cloud where shared trust is needed
 
 Cloud services may be appropriate where identity, routing, public locker discovery, push delivery, carrier coordination, certificates, plugin verification or trust registry functions require a shared layer.
@@ -79,6 +85,12 @@ Bezahlte Dienste sollen nicht auf absichtlich eingeschränkten Community-Funktio
 ### Community-Nutzen hinter kommerziellen Funktionen
 
 Jede größere kommerzielle Richtung soll einen echten Community-Nutzen erhalten oder schaffen, zum Beispiel offene Spezifikationen, dokumentierte APIs, Selfhosting, lokalen Betrieb, Referenzimplementierungen oder Kompatibilitätswerkzeuge.
+
+### Offene Infrastruktur für unterversorgte Orte
+
+OpenParcelBox soll nicht nur private Paketkästen nachrüstbar machen. Langfristig kann daraus auch eine Grundlage für Bürgerboxen, Hausgemeinschaften, Quartiere, Dörfer, Wohnanlagen, Vereine, kleine Gewerbegebiete und Kommunen entstehen, in denen es zu wenige Paketstationen oder keine passende Paket-Infrastruktur gibt.
+
+Kommerzielle Tätigkeit kann Planung, Fertigung, Montage, Wartung, Hosting und Betreiberlösungen solcher Systeme ermöglichen. Die Grundlage soll trotzdem offen bleiben: lokal nutzbar, reparierbar, nachbaubar und ohne neue geschlossene Abhängigkeit.
 
 ### Cloud dort, wo gemeinsames Vertrauen nötig ist
 

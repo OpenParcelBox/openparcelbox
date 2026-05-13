@@ -47,9 +47,31 @@ OpenParcelBox may offer:
 - white label solutions
 - partner programs
 - enterprise locker deployments
+- civic or community parcel box deployments
+- apartment-building and housing-association parcel systems
+- flexible parcel and mailbox systems for M/L/XL receptacles
 - managed updates
 - security reviews
 - deployment support
+
+## Civic and community parcel infrastructure
+
+OpenParcelBox may become a basis for shared parcel infrastructure where traditional parcel stations are too rare, unavailable or unsuitable.
+
+Possible deployments include:
+
+- civic parcel boxes
+- apartment buildings
+- housing associations
+- neighborhoods
+- villages and small towns
+- associations and local communities
+- small commercial areas
+- municipal or semi-public parcel drop-off points
+
+Commercial activity may support planning, manufacturing, installation, hosting, maintenance, support, operation, billing, insurance, carrier integration and local service models for these systems.
+
+The public-interest goal remains important: OpenParcelBox should help create useful parcel access infrastructure where closed platforms are unavailable, uneconomical or too restrictive. Open source for everyone does not mean nobody may earn money. It means the foundation remains open so citizens, municipalities, housing communities, small providers and professional operators can build on it without creating a new closed dependency.
 
 ## Finished products and DIY rebuilds
 
