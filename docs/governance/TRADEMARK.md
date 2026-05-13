@@ -99,12 +99,15 @@ The project expects to define clearer access requirements before granting offici
 - reviewable interface, pinout, protocol and mounting information
 - repair and spare-part information
 - security and safety review
+- manufacturer-provided legal, technical and normative conformity evidence for each target market
 - local basic operation without mandatory cloud dependency
 - documentation of deviations from reference designs
 - compliance with applicable open source and open hardware licenses
 - agreement on how the OpenParcelBox marks may be used on packaging, devices, websites and documentation
 
 Until such permission is granted, vendors may describe their products only in accurate, non-misleading descriptive terms, for example that a product integrates with or is based on OpenParcelBox. They may not present the product as official, certified, endorsed or licensed by OpenParcelBox.
+
+OpenParcelBox provides an open technical foundation. Manufacturers are responsible for proving the legal, technical and normative conformity of their end products in every target country, including applicable requirements such as CE/EU conformity, radio approval, electrical safety, data protection, consumer law, warranty, product liability, fire safety, installation rules, postal requirements and rules for electronic locks and access systems.
 
 ## No trademark license in open source licenses
 

@@ -134,11 +134,20 @@ Official commercial product use should require:
 
 - a written license or approval from the project
 - fulfilment of the applicable access requirements
+- vendor-provided legal, technical and normative conformity evidence for each target market
 - clear documentation of what is open, what is proprietary and what is a service
 - reviewable product information in Git or another project-approved repository
 - correct use of project names, logos and compatibility claims
 
 The detailed access requirements are not final yet. They should be defined before any official commercial product license is granted.
+
+Commercial manufacturers remain responsible for proving legal, technical and normative conformity for each target country and market.
+
+Depending on the product and market, this may include national requirements, CE/EU conformity, radio approval, electrical safety, data protection, consumer law, warranty, product liability, fire safety, installation requirements, postal requirements and rules for electronic locks and access-control systems.
+
+OpenParcelBox provides an open technical foundation. Responsibility for a marketable, legally permitted and safe end product remains with the respective manufacturer.
+
+Official OpenParcelBox compatibility therefore does not mean "it somehow works". It means openly documented, reviewable, repairable, interoperable and legally clean for the relevant distribution country.
 
 ## Vendor compatibility pact
 
