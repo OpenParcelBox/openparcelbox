@@ -1,8 +1,12 @@
 # Standards Baseline
 
-OpenParcelBox should be aligned with the relevant European standards baseline without copying protected standards text or claiming compliance before the project has completed a proper review.
+OpenParcelBox should be aligned with the relevant European standards and EU-level regulatory baseline without copying protected standards text or claiming compliance before the project has completed a proper review.
 
-This document captures the public European standards baseline used for early project planning. It is not a compliance claim.
+This document captures the public European baseline used for early project planning. It is not a compliance claim and not legal advice.
+
+The project should think European first. Community development should target a common EU/CEN-oriented technical baseline, not maintain separate national compliance interpretations for every country.
+
+Country-specific rules, market-entry obligations and local installation requirements are deployment responsibilities. They must be assessed by the manufacturer, installer or operator for the target market before any commercial product, public deployment or official compatibility claim is made.
 
 ## Standards Tracks
 
@@ -10,6 +14,22 @@ OpenParcelBox separates two concerns:
 
 - Physical receptacle requirements: parcel-box size, weather resistance, ergonomics, mechanical security and delivery security.
 - Digital access requirements: opening rights, authentication, authorization, revocation, auditability and interoperability.
+
+The community baseline focuses on reusable European assumptions. National deviations should be tracked only where they materially affect the open architecture or a reference implementation. They should not become blocking requirements for general community coding.
+
+## EU-Level Compliance Boundary
+
+OpenParcelBox can provide open designs, reference firmware, documentation, interface profiles and test ideas. It cannot make a community repository compliant for every possible market, installation site or product class.
+
+For commercial products and public deployments, conformity work should be handled at the product and market level. Depending on the product, this may include EU product safety rules, CE marking, radio equipment rules, cybersecurity requirements for products with digital elements, data protection, consumer protection, postal-sector obligations, building/fire rules and national implementation details.
+
+The open project should therefore:
+
+- design against a European interoperability baseline
+- keep interfaces, assumptions and safety boundaries explicit
+- avoid copying protected standards text
+- avoid claiming legal or normative compliance too early
+- leave country-specific conformity assessment to the party placing a product or service on the market
 
 ## CEN/TS 17457:2020
 
@@ -52,7 +72,7 @@ Legend:
 | Safety | Sharp-edge and injury prevention | Covered | User-accessible components must be mechanically safe independent of formal certification status. |
 | Safety | Child entrapment and ventilation for large receptacles | Partially covered | Small boxes may be physically unable to contain a child; garage/storage-room scenarios require explicit emergency opening and ventilation analysis. |
 | Safety | Warning labels and safety instructions | Partially covered | Documentation is in scope, but physical labels and wording are not yet specified. |
-| Fire/building | National fire and escape-route requirements | Partially covered | OpenParcelBox cannot define building-level compliance. Installers/operators must follow local building rules. |
+| Fire/building | Building, fire and escape-route requirements | Partially covered | OpenParcelBox can document safety assumptions, but building-level and country-specific compliance is a deployment responsibility. |
 | Corrosion | Corrosion resistance grades | Partially covered | Outdoor-capable hardware is intended, but target grades and test evidence are not selected. |
 | Weather | Water penetration / rain protection | Partially covered | Weather resistance is a design goal; profiles must distinguish sheltered and exposed installations and select a test target. |
 | Security | Graded mechanical resistance of doors and locks | Partially covered | Digital access control is not a substitute for mechanical resistance. Target security grades are not defined yet. |
@@ -116,17 +136,29 @@ Public repositories must not include copied protected standards text. Private co
 
 Open issue: the project has researched legal access paths, but has not yet obtained or documented actual maintainer access to licensed copies.
 
-## Policy Watch
+## EU Policy Watch
 
-The project should maintain a lightweight watch list for:
+The project should maintain a lightweight EU-first watch list for:
 
 - CEN/TS 17457
 - CEN/TS 16819
 - OPEN GIE
-- German Postgesetz 2024
-- Bundesnetzagentur postal market monitoring
-- WIK research on provider-neutral parcel stations
+- EU product safety and CE marking guidance
+- EU Radio Equipment Directive guidance where wireless hardware is involved
+- EU Cyber Resilience Act guidance for products with digital elements
+- EU data protection baseline where personal data or access logs are processed
 - ERGP postal network access discussions
+- EU postal-sector and parcel-delivery market discussions
+
+National examples, such as German postal market monitoring or national building/fire requirements, may be useful research inputs. They should be marked as country-specific and should not define the general community baseline unless the project deliberately creates a country-specific deployment profile.
+
+Useful public EU starting points:
+
+- EU product requirements and CE marking: https://commission.europa.eu/topics/business-and-industry/doing-business-eu/eu-product-safety-and-labelling/eu-product-requirements_en
+- CE marking overview for businesses: https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm
+- Radio Equipment Directive overview: https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en
+- Cyber Resilience Act overview: https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act
+- European Parliament postal-services policy watch: https://www.europarl.europa.eu/legislative-train/carriage/postal-services/report
 
 ## Rules
 
@@ -134,3 +166,5 @@ The project should maintain a lightweight watch list for:
 - Distinguish private home receptacles from provider-operated automated stations.
 - Keep public documentation free of protected standards text.
 - Track which statements come from public summaries and which require licensed standard review.
+- Keep the open community baseline EU/CEN-oriented.
+- Treat national rules as deployment-specific unless they affect the shared architecture.
