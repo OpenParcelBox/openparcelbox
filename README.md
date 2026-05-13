@@ -58,12 +58,16 @@ See:
 
 OpenParcelBox welcomes community input while keeping clear responsibility for security, official releases, project identity and local-first principles.
 
+English is the primary technical project language for code, APIs, specifications and architecture decisions. The community is intentionally bilingual: English and German are both welcome in issues and discussions.
+
 See:
 
 - [Contributing](CONTRIBUTING.md)
 - [Developer Certificate of Origin](DCO.md)
 - [Governance](GOVERNANCE.md)
 - [Security policy](SECURITY.md)
+- [Language policy](docs/governance/LANGUAGE_POLICY.md)
+- [GitHub Discussions structure](docs/community/DISCUSSIONS.md)
 - [Project principles](docs/governance/PRINCIPLES.md)
 - [License overview](docs/governance/LICENSES.md)
 - [Trademark policy](docs/governance/TRADEMARK.md)

@@ -95,6 +95,12 @@ Contributions should be:
 - designed without artificial cloud lock-in
 - careful with user data and security assumptions
 
+## Language
+
+English is preferred for code, APIs, file names, specifications, architecture decisions and release notes.
+
+Issues, discussions and community input may be written in English or German. Maintainers may summarize German discussions in English when a topic affects architecture, security, firmware behavior, standards or roadmap decisions.
+
 ## Community and commercial work
 
 OpenParcelBox welcomes community contributions and may also support commercial integrations, consulting, certification and enterprise work.
