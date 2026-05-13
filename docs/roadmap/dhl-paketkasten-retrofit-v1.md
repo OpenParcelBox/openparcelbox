@@ -16,6 +16,36 @@ The discontinued electronic DHL parcel box is the strongest first use case becau
 - the retrofit problem is concrete, testable and useful
 - it demonstrates the OpenParcelBox principle: keep the box, replace the closed control layer
 
+## Official DHL Retrofit Reference
+
+DHL published a practical retrofit video for turning the older electronic DHL parcel box into a manual drop-off location:
+
+https://www.youtube.com/watch?v=jXzvwI64qbM
+
+Public video metadata:
+
+- title: `Umbau des DHL Paketkasten zu Ablageort`
+- channel: `Deutsche Post und DHL`
+- published: 2025-03-13
+
+The video demonstrates, in project-relevant terms:
+
+- opening the box with the original electronic mechanism before removing the batteries
+- removing the batteries so the original electronic latch remains permanently open
+- mounting a mechanical combination lock to the parcel compartment
+- using inside-secured screws / security screws for the new lock hardware
+- entering the new code in the DHL customer account as part of the alternative drop-off location instructions
+- adding a separate manual lock to the letter compartment where applicable
+
+OpenParcelBox should treat this as a useful baseline and contrast point:
+
+- DHL's approach is intentionally simple and manual.
+- It keeps the physical box in use.
+- It makes access understandable for delivery staff.
+- It does not solve dynamic codes, auditability, multi-user rights, local event logging, tamper handling or open electronic interoperability.
+
+V1 should build on the same physical insight while adding a local, open and auditable access-control layer.
+
 ## V1 Goal
 
 Build a standalone ESP-based retrofit controller for an existing DHL parcel box.
@@ -200,4 +230,3 @@ The V1 concept is ready for prototype implementation when:
 5. Sketch two or three lock mechanism options before selecting one.
 6. Estimate power consumption for controller, reader, lock actuation and sensors.
 7. Convert the chosen direction into firmware and hardware issues.
-
