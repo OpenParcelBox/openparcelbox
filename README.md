@@ -47,6 +47,12 @@ OpenParcelBox should use **CEN/TS 17457:2020** as an important reference for int
 
 The standard is not copied into this repository. Project work should refer to it legally and summarize requirements in original project language.
 
+See:
+
+- [Standards baseline](docs/standards/baseline.md)
+- [Opening rights](docs/access-control/opening-rights.md)
+- [Carrier adapter interface](docs/integrations/carrier-adapter.md)
+
 ## Current Focus
 
 Early project work focuses on:
