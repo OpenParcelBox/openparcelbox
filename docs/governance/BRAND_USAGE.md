@@ -24,6 +24,7 @@ Examples of use that require permission:
 
 - “Official OpenParcelBox Lock”
 - “OpenParcelBox Certified”
+- “Proudly Made for OpenParcelBox”
 - “Powered by OpenParcelBox”
 - using the OpenParcelBox logo on commercial hardware as a product brand
 - running a hosted service under the OpenParcelBox name
@@ -47,7 +48,7 @@ Not allowed:
 
 You may say “Compatible with OpenParcelBox API” if the statement is accurate and not misleading.
 
-You may not say “OpenParcelBox Certified” unless certification has been granted.
+You may not say “OpenParcelBox Certified” or “Proudly Made for OpenParcelBox” unless the relevant approval has been granted.
 
 ## Domain names
 
@@ -64,6 +65,8 @@ Commercial vendors are welcome to apply for an official OpenParcelBox brand, com
 No product may be marketed as official, certified, endorsed or licensed by OpenParcelBox until the applicable written permission has been granted and the required conditions have been met.
 
 The exact access requirements still need to be defined, but they are expected to cover documentation, repairability, spare parts, local operation, interface transparency, security review and correct use of the OpenParcelBox marks.
+
+The project may also grant a `Proudly Made for OpenParcelBox` mark. This should be reserved for products that are genuinely built for the OpenParcelBox ecosystem and whose OpenParcelBox-relevant foundations are open source, open hardware or otherwise reviewable enough for users to inspect, repair and reproduce the essential parts.
 
 ## Permission
 

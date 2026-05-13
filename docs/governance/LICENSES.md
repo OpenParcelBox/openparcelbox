@@ -14,7 +14,7 @@ The goal is to keep the core technology open and auditable, while allowing comme
 | Hardware designs | KiCad files, schematics, PCB layouts, reference boards, adapter boards, sensor boards | CERN-OHL-S-2.0 |
 | Technical documentation and specifications | Protocol specifications, API documentation, security model, installation documentation, architecture | CC-BY-SA-4.0 |
 | Website marketing texts and commercial presentation | Product pages, commercial descriptions, marketing copy | All rights reserved unless explicitly stated otherwise |
-| Brand assets, logos, icons, certification marks and domain identity | OpenParcelBox, OpenParcelBox Cloud, OpenParcelBox Certified, OpenParcelBox Compatible, Powered by OpenParcelBox, logo/icon, openparcelbox.org | All rights reserved; use governed by trademark policy |
+| Brand assets, logos, icons, certification marks and domain identity | OpenParcelBox, OpenParcelBox Cloud, OpenParcelBox Certified, OpenParcelBox Compatible, Proudly Made for OpenParcelBox, Powered by OpenParcelBox, logo/icon, openparcelbox.org | All rights reserved; use governed by trademark policy |
 | Hosted Cloud / Managed Cloud / Enterprise services | Hosted services, push, backups, carrier integrations, trust registry, public locker directory, SLA, support, white label | Separate commercial terms |
 
 ## Separate licenses by directory

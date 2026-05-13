@@ -2,7 +2,7 @@
 
 This policy explains how the OpenParcelBox name, logo and related project identifiers may be used.
 
-OpenParcelBox, the OpenParcelBox logo, OpenParcelBox Cloud, OpenParcelBox Certified, OpenParcelBox Compatible, Powered by OpenParcelBox, openparcelbox.org and related marks are reserved project identifiers and trademarks of the OpenParcelBox project.
+OpenParcelBox, the OpenParcelBox logo, OpenParcelBox Cloud, OpenParcelBox Certified, OpenParcelBox Compatible, Proudly Made for OpenParcelBox, Powered by OpenParcelBox, openparcelbox.org and related marks are reserved project identifiers and trademarks of the OpenParcelBox project.
 
 This policy does not claim that every mark is registered in every jurisdiction. It defines how the project permits use of its names, marks and identity.
 
@@ -39,6 +39,7 @@ This includes, but is not limited to:
 - operating a hosted cloud service under the OpenParcelBox name
 - calling a product “Official OpenParcelBox Lock” without approval
 - using “OpenParcelBox Certified” without certification
+- using “Proudly Made for OpenParcelBox” without approval
 - using the OpenParcelBox logo as your own product logo
 - using OpenParcelBox marks in a way that suggests partnership or endorsement
 - registering confusing domain names, product names or service names
@@ -60,17 +61,31 @@ A fork may not say:
 
 You may use “Compatible with OpenParcelBox” only as a descriptive statement and only if it is accurate and not misleading.
 
-You may not use “OpenParcelBox Certified”, “Official OpenParcelBox”, “Powered by OpenParcelBox” or similar claims unless you have written permission or have completed the applicable certification process.
+You may not use “OpenParcelBox Certified”, “Official OpenParcelBox”, “Proudly Made for OpenParcelBox”, “Powered by OpenParcelBox” or similar claims unless you have written permission or have completed the applicable certification process.
 
 ## Certification marks
 
-OpenParcelBox Certified, OpenParcelBox Compatible and similar certification or compatibility marks may be subject to additional requirements, testing, approval and written permission.
+OpenParcelBox Certified, OpenParcelBox Compatible, Proudly Made for OpenParcelBox and similar certification or compatibility marks may be subject to additional requirements, testing, approval and written permission.
 
 Official compatibility may require more than "it works once". The project may require documentation of relevant interfaces, replacement parts, repair paths, local operation, security behavior and interoperability before allowing certification or official brand use.
 
 Official OpenParcelBox variants should be documented in Git or another reviewable project repository so that schematics, interfaces, firmware changes, protocols, mounting data, spare-part information and security-relevant deviations can be reviewed by maintainers and the community.
 
 Commercial vendors may sell products and services around OpenParcelBox. They may not use official marks to promote hardware that depends on unavailable spare parts, undocumented private protocols or mandatory cloud services for basic local operation.
+
+### Proudly Made for OpenParcelBox
+
+`Proudly Made for OpenParcelBox` is intended as a positive mark for products that are designed for the OpenParcelBox ecosystem and meet stricter openness expectations than a casual compatibility claim.
+
+The mark should only be granted when the relevant underlying implementation is open source, open hardware or otherwise published in a reviewable form that allows users and maintainers to understand, repair and reproduce the essential OpenParcelBox-related parts.
+
+At minimum, this mark should require:
+
+- the OpenParcelBox-related firmware, hardware interface or integration layer to be published under an approved open license
+- enough documentation for independent review, repair and reproduction
+- no mandatory cloud dependency for basic local operation
+- clear separation between open project components and optional commercial services
+- compliance with the trademark, brand and certification requirements
 
 ## Commercial product licensing
 

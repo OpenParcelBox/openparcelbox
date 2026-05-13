@@ -95,15 +95,18 @@ OpenParcelBox may offer certification or compatibility programs such as:
 - OpenParcelBox Compatible
 - OpenParcelBox Secure Bridge
 - OpenParcelBox Enterprise Ready
+- Proudly Made for OpenParcelBox
 - Powered by OpenParcelBox
 
 Use of these names or marks requires written permission and may require testing, review, certification or commercial agreement.
+
+`Proudly Made for OpenParcelBox` should be treated as a visible quality and openness mark, not as a generic advertising phrase. It should be reserved for products where the OpenParcelBox-relevant foundation is open source, open hardware or otherwise published in a form that users and maintainers can inspect, repair and reproduce.
 
 ## Official product licensing
 
 Commercial providers are invited to apply for an OpenParcelBox brand, product or compatibility license if they want to sell products as official OpenParcelBox products, official variants or officially compatible products.
 
-This is separate from the open source licenses. A vendor may be allowed to use code, documentation or hardware designs under the applicable open licenses, but that does not automatically grant permission to sell a product as "OpenParcelBox", "Official OpenParcelBox", "OpenParcelBox Certified", "OpenParcelBox Compatible" or under similar official claims.
+This is separate from the open source licenses. A vendor may be allowed to use code, documentation or hardware designs under the applicable open licenses, but that does not automatically grant permission to sell a product as "OpenParcelBox", "Official OpenParcelBox", "OpenParcelBox Certified", "OpenParcelBox Compatible", "Proudly Made for OpenParcelBox" or under similar official claims.
 
 Official commercial product use should require:
 
