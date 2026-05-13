@@ -85,7 +85,7 @@ Raw secrets should not be stored in the log.
 
 The system must clearly separate households.
 
-The beta should make it nachvollziehbar which household, person or carrier access was used for an opening event.
+The beta should make it traceable which household, person or carrier access was used for an opening event.
 
 ## Local Management
 
@@ -191,4 +191,3 @@ The beta milestone is reached when:
 - a local API foundation exists
 - OTA update path is documented and tested at least once
 - no cloud, Home Assistant or bridge is required for basic operation
-

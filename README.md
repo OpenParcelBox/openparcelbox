@@ -83,10 +83,12 @@ V1 should prove the local-first retrofit idea on real hardware:
 
 - keep the existing parcel box useful
 - replace or adapt the closed lock/control layer
-- support a keypad/RFID/fingerprint access module where feasible
+- support keypad, NFC and prepared fingerprint access where feasible
 - run locally without cloud, bridge, Home Assistant or internet
-- explore solar-supported low-voltage operation
-- support up to 10 users, multiple local codes and separate carrier/service-provider codes
+- use a stable low-voltage supply design, with solar support to be explored
+- support 4 households with up to 2 people each
+- support up to 6 carrier/service-provider PINs
+- provide local logging, local web management, MQTT, local API foundation and OTA in the beta target
 - keep household/group capability in the data model from the beginning
 
 See:

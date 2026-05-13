@@ -64,20 +64,24 @@ The first prototype should:
 
 - work locally without cloud, bridge, Home Assistant or internet
 - control a practical lock mechanism inside the parcel box
-- support a keypad/RFID/fingerprint access module where feasible
-- run from a solar-supported low-voltage power system if practical
-- manage a small household-style user model
-- support package-carrier deposit codes separately from owner pickup/admin access
+- support touch keypad, NFC and prepared fingerprint access where feasible
+- process access hardware through Wiegand where applicable
+- run from a 12 V low-voltage supply system with internal conversion for ESP and peripherals
+- represent a small multi-household user model
+- support carrier PINs separately from owner pickup/admin access
+- provide local logging, local web management, MQTT events, a local API foundation and OTA updates for beta
 - keep the design open enough that other users can reproduce, modify and improve it
 
 ## Target User Model
 
 V1 should support a deliberately limited but useful standalone model:
 
-- up to 10 users
-- each user can have up to 5 personal/access codes
+- 4 households
+- up to 2 people per household
+- each person can authenticate through PIN or NFC
+- fingerprint is optional in beta but should be prepared in the model
 - 1 master/admin code
-- up to 5 carrier/service-provider codes
+- up to 6 carrier/service-provider PINs
 - household/group capability should be included in the data model from the beginning
 
 The first firmware does not need full cloud account management, but it should avoid painting itself into a corner.
@@ -101,6 +105,7 @@ At minimum:
 - user access: may open according to local permissions
 - carrier access: should be deposit-oriented and should not automatically imply pickup rights
 - master code: local emergency/admin path
+- remote command access: security-sensitive action for MQTT/API, must be logged
 
 This should align with the existing OpenParcelBox opening-right model, even if the first firmware stores everything locally.
 
@@ -166,6 +171,8 @@ The reader should present credentials. The internal controller decides whether t
 
 V1 should explore solar-supported standalone operation.
 
+The beta baseline uses a 12 V supply system with internal voltage conversion. Solar-supported operation remains a power-design goal, but the beta acceptance target is a stable low-voltage supply design.
+
 Planning assumptions:
 
 - low-voltage only
@@ -187,9 +194,9 @@ Open questions:
 
 ## Connectivity Direction
 
-V1 is standalone first.
+V1 is standalone first, but the beta includes MQTT, local API foundation and OTA as local/network features.
 
-Matter, Zigbee, WLAN, MQTT, Home Assistant or bridge integration may be explored later, but they are not required for V1 to work.
+Matter, Zigbee, Home Assistant or bridge integration may be explored later, but they are not required for V1 to work.
 
 The firmware architecture should still avoid blocking these future paths.
 
@@ -197,9 +204,10 @@ Possible staged approach:
 
 1. Standalone local keypad/RFID operation.
 2. Local configuration interface.
-3. Optional WLAN status/config.
-4. Optional MQTT/Home Assistant bridge.
-5. Optional Matter/Zigbee capable device or bridge path.
+3. Local web management on the ESP.
+4. MQTT events and local API foundation.
+5. OTA update path.
+6. Optional Home Assistant, Matter, Zigbee or bridge path.
 
 ## V1 Non-Goals
 
@@ -226,6 +234,9 @@ The V1 concept is ready for prototype implementation when:
 - cable routing concept is sketched
 - power budget is estimated
 - local user/code model is written down
+- local web management scope is written down
+- MQTT event and local API scope is written down
+- OTA update path is written down
 - firmware state model is sketched
 - safety and emergency opening assumptions are documented
 - first bill of materials is drafted
