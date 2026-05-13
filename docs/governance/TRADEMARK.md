@@ -72,6 +72,25 @@ Official OpenParcelBox variants should be documented in Git or another reviewabl
 
 Commercial vendors may sell products and services around OpenParcelBox. They may not use official marks to promote hardware that depends on unavailable spare parts, undocumented private protocols or mandatory cloud services for basic local operation.
 
+## Commercial product licensing
+
+Manufacturers and commercial providers are invited to apply for permission to sell products as official OpenParcelBox products, official variants or officially compatible products.
+
+That permission is not automatic. It requires a separate written trademark, brand or certification license from the project.
+
+The project expects to define clearer access requirements before granting official commercial brand use. These requirements may include, depending on the product:
+
+- publication of relevant hardware and firmware documentation
+- reviewable interface, pinout, protocol and mounting information
+- repair and spare-part information
+- security and safety review
+- local basic operation without mandatory cloud dependency
+- documentation of deviations from reference designs
+- compliance with applicable open source and open hardware licenses
+- agreement on how the OpenParcelBox marks may be used on packaging, devices, websites and documentation
+
+Until such permission is granted, vendors may describe their products only in accurate, non-misleading descriptive terms, for example that a product integrates with or is based on OpenParcelBox. They may not present the product as official, certified, endorsed or licensed by OpenParcelBox.
+
 ## No trademark license in open source licenses
 
 Open source licenses for code, documentation or hardware designs do not grant permission to use OpenParcelBox names, logos, certification marks or domain identity.

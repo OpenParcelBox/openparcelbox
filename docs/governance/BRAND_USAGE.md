@@ -59,6 +59,12 @@ Commercial use of OpenParcelBox code under open source licenses is allowed accor
 
 Commercial use of OpenParcelBox names, logos, certification marks or official compatibility claims is separate and requires permission where stated in the trademark policy.
 
+Commercial vendors are welcome to apply for an official OpenParcelBox brand, compatibility or product license. Such a license may allow a product to be sold as an official OpenParcelBox product, official variant, OpenParcelBox Compatible product or similar approved offering.
+
+No product may be marketed as official, certified, endorsed or licensed by OpenParcelBox until the applicable written permission has been granted and the required conditions have been met.
+
+The exact access requirements still need to be defined, but they are expected to cover documentation, repairability, spare parts, local operation, interface transparency, security review and correct use of the OpenParcelBox marks.
+
 ## Permission
 
 For written permission, certification, partnership or brand use requests, contact:

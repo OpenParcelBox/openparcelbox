@@ -99,6 +99,22 @@ OpenParcelBox may offer certification or compatibility programs such as:
 
 Use of these names or marks requires written permission and may require testing, review, certification or commercial agreement.
 
+## Official product licensing
+
+Commercial providers are invited to apply for an OpenParcelBox brand, product or compatibility license if they want to sell products as official OpenParcelBox products, official variants or officially compatible products.
+
+This is separate from the open source licenses. A vendor may be allowed to use code, documentation or hardware designs under the applicable open licenses, but that does not automatically grant permission to sell a product as "OpenParcelBox", "Official OpenParcelBox", "OpenParcelBox Certified", "OpenParcelBox Compatible" or under similar official claims.
+
+Official commercial product use should require:
+
+- a written license or approval from the project
+- fulfilment of the applicable access requirements
+- clear documentation of what is open, what is proprietary and what is a service
+- reviewable product information in Git or another project-approved repository
+- correct use of project names, logos and compatibility claims
+
+The detailed access requirements are not final yet. They should be defined before any official commercial product license is granted.
+
 ## Vendor compatibility pact
 
 Manufacturers, box vendors and integration partners are welcome in the OpenParcelBox ecosystem.

@@ -33,6 +33,10 @@ The OpenParcelBox name, logo and related marks are reserved project identifiers 
 
 Commercial use of open components is allowed under the applicable license terms. However, official use of the OpenParcelBox name, logo, certification marks, hosted service names or partnership claims requires separate written permission.
 
+Manufacturers and commercial providers are welcome to apply for a separate OpenParcelBox brand, product or compatibility license. Such a license may allow products to be distributed as official OpenParcelBox products, official variants or officially compatible products, but only after the applicable conditions have been defined, reviewed and fulfilled.
+
+Open source licensing and official brand licensing are separate. The ability to use open project files does not by itself create a right to market a product as official OpenParcelBox.
+
 ## Early project stage
 
 OpenParcelBox is in an early planning and specification phase. No production hardware, firmware or security guarantees are provided at this stage.
