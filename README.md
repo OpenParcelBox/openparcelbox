@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://openparcelbox.org">
+    <img src="https://openparcelbox.org/assets/openparcelbox-readme-banner.png" alt="OpenParcelBox" width="900">
+  </a>
+</p>
+
 # OpenParcelBox
 
 OpenParcelBox is an open ecosystem for smart parcel delivery infrastructure, retrofit parcel boxes, open locks and self-hosted access control.
