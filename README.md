@@ -57,6 +57,7 @@ See:
 
 - [Standards baseline](docs/standards/baseline.md)
 - [Opening rights](docs/access-control/opening-rights.md)
+- [Privacy-preserving audit events](docs/access-control/audit-events.md)
 - [Keyring and delegated key model](docs/access-control/keyring-model.md)
 - [Remote command security](docs/security/remote-command-security.md)
 - [Carrier adapter interface](docs/integrations/carrier-adapter.md)

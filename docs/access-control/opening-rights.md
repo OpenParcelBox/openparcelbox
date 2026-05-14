@@ -164,5 +164,6 @@ Opening rights should be implemented on top of a local keyring model rather than
 
 See:
 
+- [Privacy-preserving audit events](audit-events.md)
 - [Keyring and delegated key model](keyring-model.md)
 - [Remote command security](../security/remote-command-security.md)
