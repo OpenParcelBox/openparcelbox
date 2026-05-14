@@ -57,6 +57,8 @@ See:
 
 - [Standards baseline](docs/standards/baseline.md)
 - [Opening rights](docs/access-control/opening-rights.md)
+- [Keyring and delegated key model](docs/access-control/keyring-model.md)
+- [Remote command security](docs/security/remote-command-security.md)
 - [Carrier adapter interface](docs/integrations/carrier-adapter.md)
 - [Wiegand ACCESS-Port profile](docs/hardware/wiegand-access-port.md)
 
@@ -105,6 +107,8 @@ Supporting project work continues around:
 
 - CEN/TS 17457:2020 research
 - access-control model and opening rights
+- keyring, delegated keys and scoped integration keys
+- secure remote command authorization
 - OpenParcelLock concept
 - Wiegand and access-module profiles
 - security and privacy requirements

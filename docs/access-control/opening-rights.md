@@ -158,3 +158,11 @@ When offline:
 - events are buffered for later sync/export
 - cloud-issued rights only work if already synced and locally valid
 
+## Related Models
+
+Opening rights should be implemented on top of a local keyring model rather than raw code matching.
+
+See:
+
+- [Keyring and delegated key model](keyring-model.md)
+- [Remote command security](../security/remote-command-security.md)
