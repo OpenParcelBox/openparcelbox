@@ -62,6 +62,7 @@ See:
 - [Remote command security](docs/security/remote-command-security.md)
 - [Carrier adapter interface](docs/integrations/carrier-adapter.md)
 - [Wiegand ACCESS-Port profile](docs/hardware/wiegand-access-port.md)
+- [M1 ready-made hardware module matrix](docs/hardware/m1-module-matrix.md)
 
 ## Governance and Contribution
 
@@ -100,10 +101,12 @@ V1 should prove the local-first retrofit idea on real hardware:
 - support up to 6 carrier/service-provider PINs
 - provide local logging, local web management, MQTT, local API foundation and OTA in the beta target
 - keep household/group capability in the data model from the beginning
+- start with ready-made low-voltage modules before deriving a later reference board
 
 See:
 
 - [Milestone 1: DHL Parcel Box Retrofit Beta](docs/roadmap/m1-dhl-retrofit-beta.md)
+- [M1 ready-made hardware module matrix](docs/hardware/m1-module-matrix.md)
 
 Supporting project work continues around:
 

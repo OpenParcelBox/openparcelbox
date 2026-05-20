@@ -81,7 +81,12 @@ The focus is stable operation in a small multi-household scenario with distingui
 - 12 V supply system.
 - Internal voltage conversion for ESP and peripherals.
 - Low-voltage only for the prototype.
+- Battery and solar are treated as separate subsystems.
 - Solar-supported operation remains a power-design goal, but beta acceptance starts with a stable low-voltage supply design.
+
+The first prototype should start with ready-made modules where practical. The module research should inform a later OpenParcelBox Core/backplane rather than pretending that the first prototype is already a production PCB.
+
+See: [M1 ready-made hardware module matrix](../hardware/m1-module-matrix.md).
 
 ## User and Permission Model
 
