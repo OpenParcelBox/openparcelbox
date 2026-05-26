@@ -11,7 +11,7 @@ Status: planning draft — this file describes how to run the GitHub **Project**
 ## GitHub Project setup (maintainers)
 
 1. In the `OpenParcelBox` organization, open or create a Project named **OpenParcelBox Development Hub** (name from project bootstrap notes).
-2. Link the project to repositories: **`openparcelbox/openparcelbox`**, **`openparcelbox/openparcelbox.github.io`**, and optionally **`openparcelbox/openparcellock`**.
+2. Link the project to repositories: **`OpenParcelBox/specs`**, **`OpenParcelBox/www`**, and optionally **`OpenParcelBox/openparcellock`**.
 3. Recommended **custom fields** (table view):
    - **Priority:** P0 / P1 / P2 / P3
    - **Area:** firmware, hardware, access-control, security, website, governance, integrations, research
@@ -132,7 +132,7 @@ Add `docs/community/neighborhood-capacity-sharing.md` describing voluntary, priv
 
 **Description**
 
-Maintain a short checklist (in this issue or linked doc) to run after each `openparcelbox.github.io` deploy: home + `/de/` links, key messaging (DHL retrofit beta, open local capacity narrative, manufacturer responsibility), and asset URLs on `openparcelbox.org`.
+Maintain a short checklist (in this issue or linked doc) to run after each website deploy: home + `/de/` links, key messaging (DHL retrofit beta, open local capacity narrative, manufacturer responsibility), and asset URLs on `openparcelbox.org`.
 
 **Acceptance criteria**
 

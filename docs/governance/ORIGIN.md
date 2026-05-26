@@ -59,7 +59,7 @@ https://openparcelbox.org
 
 GitHub organization / repository:
 
-https://github.com/OpenParcelBox/openparcelbox
+https://github.com/OpenParcelBox/specs
 
 First public release tag:
 

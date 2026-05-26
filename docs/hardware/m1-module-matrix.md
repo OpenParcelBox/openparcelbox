@@ -214,4 +214,4 @@ Before selecting a final M1 hardware direction:
 - [M1 DHL parcel box retrofit beta](../roadmap/m1-dhl-retrofit-beta.md)
 - [Wiegand ACCESS-Port profile](wiegand-access-port.md)
 - [Remote command security](../security/remote-command-security.md)
-- GitHub issue: [#24 M1 Beta: Research ready-made hardware modules for retrofit controller](https://github.com/OpenParcelBox/openparcelbox/issues/24)
+- GitHub issue: [#24 M1 Beta: Research ready-made hardware modules for retrofit controller](https://github.com/OpenParcelBox/specs/issues/24)

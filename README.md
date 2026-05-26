@@ -121,7 +121,7 @@ Supporting project work continues around:
 
 ## Repositories
 
-- [openparcelbox](https://github.com/OpenParcelBox/openparcelbox): ecosystem, planning, documentation and roadmap
+- [specs](https://github.com/OpenParcelBox/specs): ecosystem, planning, documentation and roadmap
 - [openparcellock](https://github.com/OpenParcelBox/openparcellock): open lock module and interface profile
 - [.github](https://github.com/OpenParcelBox/.github): organization profile and community health files
 
