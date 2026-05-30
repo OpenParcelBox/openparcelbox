@@ -79,6 +79,7 @@ See:
 - [Language policy](docs/governance/LANGUAGE_POLICY.md)
 - [GitHub Discussions structure](docs/community/DISCUSSIONS.md)
 - [Development hub (draft)](docs/project/development-hub.md)
+- [GitHub Wiki seed pages](docs/wiki-seed/Home.md)
 - [Project principles](docs/governance/PRINCIPLES.md)
 - [License overview](docs/governance/LICENSES.md)
 - [Trademark policy](docs/governance/TRADEMARK.md)
